@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "npx elm-test tests",
-    "build": "npx elm src/Main.elm --output=elm.js"
+    "build": "npx -c 'elm src/Main.elm --output=elm.js'"
   },
   "repository": {
     "type": "git",
