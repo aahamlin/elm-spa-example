@@ -91,7 +91,7 @@ init session =
 
 view : Model -> { title : String, content : Html Msg }
 view model =
-    { title = "Conduit"
+    { title = "My Conduit App"
     , content =
         div [ class "home-page" ]
             [ viewBanner
@@ -148,7 +148,7 @@ viewBanner =
     div [ class "banner" ]
         [ div [ class "container" ]
             [ h1 [ class "logo-font" ] [ text "conduit" ]
-            , p [] [ text "A place to share your knowledge." ]
+            , p [] [ text "A sample Elm application." ]
             ]
         ]
 
