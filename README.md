@@ -1,3 +1,9 @@
+### Note: I am using this example as a starter for some AWS development
+
+My rough idea is to build a simple Notebook App that categorizes key concepts and has search capabilities. High-level architecture will be deploy with AWS Amplify, Lamdba, GraphQL, DynamoDB for backend, then use AWS Comprehend, Kinesis Data Streams and Elastic Search for content categorization and search.
+
+----
+
 # ![RealWorld Example App](https://cloud.githubusercontent.com/assets/556934/25448178/3e7dc5c0-2a7d-11e7-8069-06da5169dae6.png)
 
 👉 I gave [a talk](https://www.youtube.com/watch?v=x1FU3e0sT1I)
